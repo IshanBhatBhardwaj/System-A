@@ -1,0 +1,69 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.containerForPage {
+  margin-top: 20px;
+  display: flex;
+}
+
+.filterSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.mainSection {
+  display: flex;
+  flex: 3;
+  flex-wrap: wrap;
+  gap:20px;
+  justify-content: center;
+}
+
+.savedSection {
+  flex: 1
+}
+
+.recipieCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  border: 1px solid black;
+}
+.recipieImage {
+  width: 100%;
+}
+
+.recipieSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  min-height: 250px;
+}
+
+.saveButton {
+  width: 100%;
+  height: 45px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: cyan;
+  font-weight: 600;
+}
+
+.navBar{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  border: 1px solid black;
+}
