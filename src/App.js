@@ -143,8 +143,6 @@ function App() {
     })
   }
 
-  console.log(savedItems)
-
 
   return (
     <div className="App">

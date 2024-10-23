@@ -23,6 +23,8 @@
   flex-wrap: wrap;
   gap:20px;
   justify-content: center;
+  border:3px solid blue;
+  max-height: 1301.08px;
 }
 
 .savedSection {
